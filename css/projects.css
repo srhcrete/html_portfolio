@@ -1,0 +1,73 @@
+.jumbotron {
+padding: 20px;
+background-color: black;
+color: white;
+position: fixed;
+overflow: hidden;
+width: 100%;
+height: -20%;
+z-index: 2;
+margin: 0, auto;
+/*background-image: url(pink.jpg);
+background-repeat: no-repeat;*/
+}
+.jumbotron img {
+  float: right;
+  width:20%;
+  border-radius: 50px;
+  margin-right:9%;
+  margin-top: -12%;
+}
+.jumbotron h1 {
+  /*margin-top:10%;*/
+  margin-left: 10%;
+}
+.jumbotron h3 {
+  margin-left: 10%;
+}
+.spacer {
+  width: 100%;
+  height: 300px;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.fluid-container{
+  overflow: auto;
+  width: 80%;
+  margin: 0 auto;
+  /*margin-top: 40%;*/
+  padding: 60px 0;
+  z-index: 1;
+}
+.content {
+  text-align: center;
+}
+.row {
+  margin-left: 4%;
+}
+.imgProject {
+  width: 30vw;
+  margin: 20px;
+}
+footer {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+}
+h4 {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+h4 a {
+  font-size: 25px;
+  display:inline-block;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;``
+}
